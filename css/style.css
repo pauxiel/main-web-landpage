@@ -149,7 +149,8 @@ html {
     }
      
    main {
-    padding: 5rem 1rem;
+    padding: 5rem 0.15rem;
+    margin: 2rem 1.5rem;
    }
 
    .header-content {
