@@ -209,7 +209,10 @@ html {
 }
 
 footer {
-    background-color: #31AA52;;
+    background-color: #31AA52;
+    width: 100%;
+    padding-right: 0;
+    margin-right: 0;
 }
 
 
