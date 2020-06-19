@@ -182,3 +182,9 @@ html {
     }
 }
 
+@media screen and (max-width: 350px) {
+    main {
+        max-width: 100%;
+    }
+}
+
