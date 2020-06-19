@@ -195,7 +195,7 @@ html {
         padding: 1.5rem 3.5rem;
         margin-left: 0;
         text-align: center;
-        min-width: 500px;
+        /* min-width: 500px; */
         font-size: 125%;
         overflow-x: hidden;
     }
