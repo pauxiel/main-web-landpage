@@ -154,6 +154,11 @@ html {
         flex-direction: column;
     }
 
+    .header-text {
+        width: 90%;
+        font-size: 99%;
+    }
+
     .service_two,
     .service_four {
         order: 2;
