@@ -71,7 +71,7 @@ html {
     color: #fff;
     border-radius: 4px;
     font-weight: 700;
-    width: 150px;
+    width: 100px;
   }
 
   
@@ -214,9 +214,7 @@ footer {
 
 
 .footer_div {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
+   
 }
 
 .button_footer {
