@@ -1,0 +1,168 @@
+html {
+    box-sizing: border-box;
+  }
+
+
+  *,
+  *:before,
+  *:after {
+    box-sizing: inherit;
+  }
+
+
+  html {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    overflow-x: hidden;
+
+  }
+
+  nav {
+      display: flex;
+      justify-content: space-between;
+      padding: 1rem 4rem;
+  }
+    
+  nav ul {
+     list-style: none;
+     
+
+      
+  }
+
+
+  .button {
+    /* padding: 0.25em 1em;
+    background-color: blue;
+    text-decoration: none;
+    color: #fff;
+    display: inline-block; */
+
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    height: 45px;
+    /* padding-right: 15px;
+    padding-left: 15px; */
+    line-height: 1;
+    padding: 1.25em 2em;
+    text-decoration: none;
+    background-color: #90cd4e;
+    color: #fff;
+    border-radius: 3px;
+    font-weight: 700;
+    width: 200px;
+    
+  }
+
+  
+  nav ul li {
+      display: inline;
+      margin-left: 1rem;
+  }
+
+
+  nav ul li a {
+      text-decoration: none;
+  }
+
+
+  main {
+    margin: 3rem auto;
+    padding: 0 5px;
+    max-width: 85ch;
+  }
+
+  .click{
+      display: flex;
+      justify-content: space-around;
+      margin-top: 1.5rem;
+      margin-right: 9rem;
+      margin-bottom: 1.5rem;
+     
+      
+  }
+
+
+  .header-content {
+     padding: 4rem;
+     /* width:35rem; */
+     justify-content: space-around;
+        justify-content: space-evenly;
+  }
+
+
+  .service {
+      display: flex;
+      
+  }
+
+
+  /* .service_one {
+      order: 2;
+  }
+
+
+  .picture_one {
+      order: 1;
+  } */
+
+
+  .service_two {
+    order: 1;
+}
+
+
+.picture_two,
+.picture_four {
+    order: 2;
+}
+
+.email_feature h2 {
+    text-align: center;
+}
+
+
+.footer_div {
+    text-align: center;
+    padding-bottom: 10rem;
+}
+
+@media screen and (max-width: 725px) {
+    .service {
+        flex-direction: column;
+    }
+
+    .service_two,
+    .service_four {
+        order: 2;
+    }
+    .picture_four,
+    .picture_two {
+        order: 1;
+    }
+
+    html {
+        font-size: 116%;
+    }
+     
+   main {
+    padding: 5rem 3rem;
+   }
+
+   .header-content {
+       padding: 1rem;
+   }
+
+   .click {
+       flex-direction: column;
+       
+   }
+
+   .click a {
+       margin-bottom: 1.5rem;
+   }
+
+}
