@@ -112,6 +112,7 @@ html {
 
   .service_two {
     order: 1;
+    flex-grow: 1;
 }
 
 
@@ -151,6 +152,7 @@ html {
    main {
     padding: 5rem 0.15rem;
     margin: 2rem 1.5rem;
+    width: 90%;
    }
 
    .header-content {
@@ -167,3 +169,11 @@ html {
    }
 
 }
+
+@media screen and (max-width: 300px) {
+    main {
+        width: 100%;
+        margin-right: 0;
+    }
+}
+
